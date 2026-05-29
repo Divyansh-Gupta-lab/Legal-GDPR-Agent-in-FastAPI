@@ -1,0 +1,17 @@
+[project]
+name = "learn-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.18.4",
+    "asyncmy>=0.2.11",
+    "cryptography>=48.0.0",
+    "fastapi[standard]>=0.136.1",
+    "langchain-core>=1.4.0",
+    "langchain-google-genai>=4.2.4",
+    "langgraph>=1.2.2",
+    "pymysql>=1.1.3",
+    "sqlalchemy>=2.0.49",
+]
